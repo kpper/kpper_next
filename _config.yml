@@ -13,9 +13,9 @@ language: en
 date_format: '%Y-%m-%d'
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:https://kpper.gitee.io/notes
-baseurl:https://kpper.gitee.io/notes
+## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'https://kpper.gitee.io/notes
+url:
+baseurl:
 permalink: pretty
 
 # Pagination
