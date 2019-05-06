@@ -84,7 +84,7 @@ keywords: "Jekyll, NexT,kpper"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss:false
 
 # Specify the date when the site was setup
 since: 2018
@@ -167,28 +167,28 @@ scheme: Pisces
 font:
   enable: true
 
-  # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
+  # Uri of fonts host. E.g. //fonts.googleapis.com (Default)# 外链字体库地址，例如 //fonts.googleapis.com (默认值)
   host:
 
-  # Global font settings used on <body> element.
+  # Global font settings used on <body> element. # 全局字体，应用在 body 元素上
   global:
     # external: true will load this font family from host.
     external: true
     family: Lato
 
-  # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
+  # Font settings for Headlines (h1, h2, h3, h4, h5, h6) # 标题字体 (h1, h2, h3, h4, h5, h6)
   # Fallback to `global` font settings.
   headings:
     external: true
     family:
 
-  # Font settings for posts
+  # Font settings for posts # 文章字体
   # Fallback to `global` font settings.
   posts:
     external: true
     family:
 
-  # Font settings for Logo
+  # Font settings for Logo# Logo 字体
   # Fallback to `global` font settings.
   # The `size` option use `px` as unit
   logo:
@@ -196,7 +196,7 @@ font:
     family:
     size:
 
-  # Font settings for <code> and code blocks.
+  # Font settings for <code> and code blocks.# 代码字体，应用于 code 以及代码块
   codes:
     external: true
     family:
@@ -216,6 +216,10 @@ font:
 #social:
   #LinkLabel: Link
   GitHub: https://github.com/kpper
+  Twitter: https://twitter.com/your-user-name
+  Weibo: http://weibo.com/your-user-name
+  豆瓣: http://douban.com/people/your-user-name
+  知乎: http://www.zhihu.com/people/your-user-name
 
 
 # Social Links Icons
@@ -282,11 +286,12 @@ sidebar:
 
 
 # Blog rolls
-#links_title: Links
-#links_layout: block
+links_title: Links
+links_layout: block
 #links_layout: inline
-#links:
+links:
   #Title: http://example.com/
+  baidu： http://baidu.com/
 
 
 # ---------------------------------------------------------------
