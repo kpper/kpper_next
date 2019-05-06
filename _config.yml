@@ -214,7 +214,7 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
+social:
   #LinkLabel: Link
   GitHub: https://github.com/kpper
   Twitter: https://twitter.com/your-user-name
@@ -288,8 +288,8 @@ sidebar:
 
 # Blog rolls
 links_title: Links
-links_layout: block
-#links_layout: inline
+#links_layout: block
+links_layout: inline
 links:
   #Title: http://example.com/
   baidu： http://baidu.com/
