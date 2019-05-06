@@ -30,7 +30,6 @@ $(document).ready(function () {
    * Need to add config option in Front-End at 'layout/_partials/head.swig' file.
    */
   CONFIG.fancybox && NexT.utils.wrapImageWithFancyBox();
-  CONFIG.tabs && NexT.utils.registerTabsTag();
 
   NexT.utils.embeddedVideoTransformer();
   NexT.utils.addActiveClassToMenuItem();
@@ -46,7 +45,7 @@ $(document).ready(function () {
   $(document).trigger('motion:before');
 
   // Bootstrap Motion.
-  CONFIG.motion.enable && NexT.motion.integrator.bootstrap();
+  CONFIG.motion && NexT.motion.integrator.bootstrap();
 
   $(document).trigger('bootstrap:after');
 });
