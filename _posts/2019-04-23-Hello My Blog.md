@@ -22,8 +22,6 @@ tags:
 
 ## 前言
 
->我只是一个搬运工。
-
 >很早就想有个自己的小站，记录自己在IT领域的成长,督促自己进步，希望自己能坚持下去吧。
 
 作为一名程序员， Blog 这种轮子要是挂在大众博客程序上就太没意思了。一是觉得大部分 Blog 服务都太丑，广告多不能专心写文章，二是觉得不能随便定制不好玩。之前因为太懒没有折腾，结果就一直连个写 Blog 的地儿都没有。
@@ -36,7 +34,7 @@ Kpper 的 Blog 就这么开通了。现在，总算有个地方可以好好写�
 * [博客搭建可行性方案( jekyll , hexo , Wordpress )](https://www.jianshu.com/p/c4f145fdd637)
 <p id = "build"></p>
 ---
-## 关于这个博客主题
+## 关于Jekyll主题
 
 正好之前就有听过 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) 快速 Building Blog 的技术方案，非常轻松时尚。[Jekyll中文网](http://jekyllcn.com/)
 其优点非常明显：

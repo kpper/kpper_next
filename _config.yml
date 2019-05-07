@@ -288,12 +288,12 @@ sidebar:
 
 
 # Blog rolls
-#links_title: Links
+links_title: Links
 #links_layout: block
-#links_layout: inline
+links_layout: inline
 links:
   #Title: http://example.com/
-  baidu： http://baidu.com/
+  Baidu： http://baidu.com/
 
 
 # ---------------------------------------------------------------
