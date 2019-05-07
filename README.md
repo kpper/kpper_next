@@ -1,5 +1,3 @@
-* content
-{:toc}
 # My Theme
 > 精于心，简于形 
  
@@ -8,7 +6,7 @@
 * `kpper_next` | <a href="https://kpper.github.io/kpper_next/ " target="_blank">在线预览 Preview</a> | [仓库源码欢迎star](https://github.com/kpper/kpper_next)
 * `kpper_simple` | <a href="https://kpper.github.io/kpper_simple/ " target="_blank">在线预览 Preview</a> | [仓库源码欢迎star](https://kpper.github.io/kpper_simple/)
 * `kpper_clean` | <a href="https://kpper.github.io/kpper_clean/ " target="_blank">在线预览 Preview</a> | [仓库源码欢迎star](https://github.com/kpper/kpper_clean)
-* `kpper_next` | <a href="https://kpper.github.io/kpper_jacman/ " target="_blank">在线预览 Preview</a> | [仓库源码欢迎star](https://github.com/kpper/kpper_jacman)
+* `kpper_jacman` | <a href="https://kpper.github.io/kpper_jacman/ " target="_blank">在线预览 Preview</a> | [仓库源码欢迎star](https://github.com/kpper/kpper_jacman)
 
 ## 我的Hexo主题
 >仅仅是fork过来以后有时间折腾
