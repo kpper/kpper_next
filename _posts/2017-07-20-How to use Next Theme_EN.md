@@ -1,10 +1,18 @@
 ---
-title: How to use Next Theme
-description:
-categories:
- - tutorial
+layout:     post
+title:      How to use Next Theme_EN
+subtitle:   写在前面
+date:       2019-05-05
+author:     kpper
+categories: Blog.Note
+mathjax: true
 tags:
- -Blog
+    -blog
+    -note
+#header-img: img/tiiltle.png
+#catalog: true
+#description:
+#excerpt: 
 ---
 
 > NexT is a high quality elegant [Jekyll](https://jekyllrb.com) theme ported from [Hexo Next](https://github.com/iissnan/hexo-theme-next). It is crafted from scratch, with love.
