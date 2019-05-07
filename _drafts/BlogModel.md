@@ -1,10 +1,52 @@
 ---
-title: Elements
-date: 2013-12-24 23:29:08
-categories:
-- Foo
+layout:     post
+title:      Elements 
+subtitle:   写在前面
+date:       2019-05-05
+author:     kpper
+categories: Blog.Note
+mathjax: true
 tags:
+    -blog
+    -note
+#header-img: img/tiiltle.png
+#catalog: true
+#description:
+#excerpt: 
 ---
+
+<!--
+* content
+{:toc}
+-->
+
+## 前言
+>我只是一个搬运工。
+---
+## 写在前面
+>下面是博客的搭建教程  
+
+**我的博客：[http://kpper.github.io/](http://kpper.github.io/)**
+
+## 支持
+* 你可以自由的fork。如果你能将我的信息和github的地址放在你的页面底部做成链接，我将非常感谢你。
+* 如果你喜欢我的这个博客模板，请在`kpper.github.io`这个repository点个赞——右上角**star**一下。
+
+## 特别致谢
+
+1. 这个模板基于[Gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io)  修改的，感谢这个作者,感兴趣也可以使用原版，也可以直接使用我的，加入自己想要的功能，。
+2. 感谢 Jekyll、Github Pages 和 Bootstrap!
+## 友情推荐
+>推荐另外几个喜欢的主题，懒得换了，有兴趣的可以去使用
+* [Huxpro](https://github.com/Huxpro/huxpro.github.io)
+* <a href="https://startbootstrap.com/template-overviews/clean-blog/" target="view_window">Clean Blog</a> 
+* [qiubaiying](https://github.com/qiubaiying/qiubaiying.github.io)
+* [Jacman](https://github.com/wuchong/jacman)
+
+## 最后
+回顾博客的诞生，纯粹是出于个人兴趣。如果你恰好逛到了这里，希望你也能喜欢这个博客主题。
+
+* 如果你喜欢我的这个博客模板，请在`kpper.github.io`这个repository点个赞——右上角**star**一下。
 
 The purpose of this post is to help you make sure all of HTML elements can display properly. If you use CSS reset, don't forget to redefine the style by yourself.
 
@@ -63,3 +105,4 @@ Maecenas ornare arcu at mi suscipit, non molestie tortor ultrices. Aenean conval
 ## Misc Stuff - abbr, acronym, sub, sup, etc.
 
 Lorem <sup>superscript</sup> dolor <sub>subscript</sub> amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. <cite>cite</cite>. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. <acronym title="National Basketball Association">NBA</acronym> Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.  <abbr title="Avenue">AVE</abbr>
+

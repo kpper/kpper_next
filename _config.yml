@@ -337,8 +337,8 @@ post_wordcount:
 
 #开启打赏功能
 reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
-wechatpay: /assets/images/tittle/timg.jpg
-alipay: /assets/images/tittle/timg.jpg
+wechatpay: /notes/assets/images/tittle/timg.jpg
+alipay: /notes/assets/images/tittle/timg.jpg
 
 # Declare license on posts
 post_copyright:
