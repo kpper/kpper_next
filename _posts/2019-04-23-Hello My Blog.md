@@ -36,7 +36,7 @@ Kpper 的 Blog 就这么开通了。现在，总算有个地方可以好好写�
 * [博客搭建可行性方案( jekyll , hexo , Wordpress )](https://www.jianshu.com/p/c4f145fdd637)
 <p id = "build"></p>
 ---
-## 🤘关于这个简洁明快的博客主题 🤘
+## 关于这个博客主题
 
 正好之前就有听过 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) 快速 Building Blog 的技术方案，非常轻松时尚。[Jekyll中文网](http://jekyllcn.com/)
 其优点非常明显：
@@ -52,7 +52,6 @@ Kpper 的 Blog 就这么开通了。现在，总算有个地方可以好好写�
 这一款主题，最初是Hexo上的，为什么没有直接换Hexo，只能说缘分吧（其实是因为懒，捂脸~）。
 
 ---
-
 ## 最后
 回顾博客的诞生，纯粹是出于个人兴趣。如果你恰好逛到了这里，希望你也能喜欢这个博客主题。
 
