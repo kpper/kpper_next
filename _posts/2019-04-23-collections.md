@@ -51,6 +51,8 @@ tags:
    * [jekyll-theme-next](https://github.com/Simpleyyt/jekyll-theme-next)
 - [Anribras](https://anribras.github.io/)
    * [git](https://github.com/anribras/anribras.github.io)
+### 其他
+[Jekyll主题收藏](https://blog.csdn.net/garfielder007/article/details/82875394)
 
 ### hexo主题
 * [hexo-theme-next](https://notes.iissnan.com/)

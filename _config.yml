@@ -1,12 +1,13 @@
 # ---------------------------------------------------------------
 # Jekyll & Global Configuration
 ## Docs: https://jekyllrb.com/docs/configuration/
+## http://jekyllcn.com/
 # ---------------------------------------------------------------
 
 # Site
-title: Kpper
-subtitle: Kpper's Blog
-description: HMI Softer Developer
+title: Kpper's Workstation
+subtitle: 感受Hello World的最大善意
+description: HMI Softerware Developer
 author: kpper
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
@@ -334,9 +335,14 @@ post_wordcount:
   #qcode: /path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
   #description: ex. subscribe to my blog by scanning my public wechat account
 
+#开启打赏功能
+reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+wechatpay: /assets/images/tittle/timg.jpg
+alipay: /assets/images/tittle/timg.jpg
+
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 

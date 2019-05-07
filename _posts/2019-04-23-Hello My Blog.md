@@ -44,15 +44,17 @@ Kpper 的 Blog 就这么开通了。
 * 如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了
 * Jekyll 的自定制非常容易，基本就是个模版引擎
 
-
->在学习搭建建设自己博客过程中，接触了另一种免费搭建博客平台[Hexo](https://hexo.io/)，支持[GitHub Pages](https://pages.github.com/)hexo有很多好看的主题，使用Node.js,有兴趣可以去了解一下。
----
 ## 关于这个主题
 
 >前前后后换了四个主题模板，花了不少时间，我也不知道为什么这么喜欢折腾，让我想起了当年QQ空间换肤。但毕竟初衷只是想找个能记录文字的地，简洁就好。
 
-这一款主题，最初是Hexo上的，为什么没有直接换Hexo，只能说缘分吧（其实是因为已经折腾这么久的jekll，懒得再换了，捂脸~）。
+这一款主题，最初是Hexo上的，为什么没有直接换Hexo，只能说缘分吧（其实是因为懒，捂脸~）。
 
+>在学习搭建静态博客过程中，接触了另一种免费搭建博客平台[Hexo](https://hexo.io/)，支持[GitHub Pages](https://pages.github.com/),Hexo有很多好看的主题，使用Node.js。
+二者的区别可参考以下对比，选择适合自己就好。
+[静态博客框架之Hexo & Jekyll](https://www.jianshu.com/p/ce1619874d34)
+[博客搭建可行性方案( jekyll , hexo , Wordpress )](https://www.jianshu.com/p/c4f145fdd637)
+---
 
 ## 最后
 回顾博客的诞生，纯粹是出于个人兴趣。
