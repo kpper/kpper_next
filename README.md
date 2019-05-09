@@ -35,6 +35,16 @@
 
 First things first, always keep things simple.
 
+## 部署  Deploy
+**划重点** 项目名称必须是: **your username.github.io** ,如果你账号名有大写的话,统一改成小写.  
+>由于Github Pages 默认部署为一级url**your username.github.io**如果你使用二级url部署做如下修改
+
+```
+url: "username.github.io"          # your host, for absolute URL
+baseurl: "/blog"      # for example, '/blog' if your blog hosted on 'host/blog'
+``` 
+>因为我的主题都在二级，发现部分页面无法跳转，是主题模板中部分link没有加入baseurl导致，暂时先这样了，如果像正常使用请放在一级目录下，如果你知道怎么修改二级错误，也欢迎你贡献你的代码。
+
 ## 特别致谢
 
 1. `kpper_next`基于[Simpleyyt](https://github.com/Simpleyyt/jekyll-theme-next)  修改的，感谢这个作者。
@@ -49,5 +59,9 @@ First things first, always keep things simple.
 
 ![支付宝扫码捐赠](assets/images/tittle/timg2.1.jpg)
 
+## License
+[MIT](https://github.com/kpper/kpper.github.io/blob/master/LICENSE)
+
 ## 最后
 回顾博客的诞生，纯粹是出于个人兴趣。如果你恰好逛到了这里，希望你也能喜欢我的博客主题。
+
