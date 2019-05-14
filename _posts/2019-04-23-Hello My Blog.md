@@ -26,17 +26,24 @@ tags:
 <!-- more -->
 ## 正文
 很早就想有个自己的小站，希望自己能坚持下去吧。
+
 前前后后换了四个主题模板，花了不少时间。
+
 但毕竟我写这个博客的初衷是记录一些我在工作或者学习中遇到或者学到的知识。
+
 随着年岁的增长，记忆力直线下降，所以只是拿博客当作一个在线的记录工具，供我能够随时方便地找到容易遗忘的知识点，并没有想过什么著书立传之类的事情。
+
 能帮到别人固然是好的，不过归根结底是给自己一个方便查阅的平台，作为自己的知识库。
+
 回顾博客的诞生，纯粹是出于个人兴趣。如果你恰好逛到了这里，希望你也能喜欢这个博客主题。
 ## 最后
 现在使用的`kpper_next`这款主题，最初是Hexo上的，为什么没有直接换Hexo，只能说缘分吧（其实是因为懒，捂脸~）。
 * 如果你喜欢我的这个博客模板，请在[`kpper_next
 `](https://kpper.github.io/kpper_next/)这个repository点个赞——右上角**star**一下。
 <p id = "build"></p>
+
 ---
+
 ## 关于Jekyll主题
 
 之前就有听过 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) 快速 Building Blog 的技术方案，非常轻松时尚。[Jekyll中文网](http://jekyllcn.com/)
@@ -47,6 +54,7 @@ tags:
 * 利用 GitHub Pages 的域名和免费无限空间，不用自己折腾主机
 * 如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了
 * Jekyll 的自定制非常容易，基本就是个模版引擎
+  
 ---
 
 >在学习搭建静态博客过程中，接触了另一种免费搭建博客平台[Hexo](https://hexo.io/)，支持[GitHub Pages](https://pages.github.com/),Hexo有很多好看的主题，使用Node.js。
