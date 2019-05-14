@@ -4,11 +4,10 @@ title:      How to use kpper_clean Theme
 subtitle:   （转载fedemo）利用 GitHub Pages 快速搭建个人博客
 date:       2019-05-05
 author:     kpper
-categories: Blog.Note
+categories: Note.Blog
 mathjax: true
 tags:
-    -blog
-    -note
+    - blog
 #header-img: img/tiiltle.png
 #catalog: true
 #description:

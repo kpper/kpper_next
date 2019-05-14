@@ -4,11 +4,10 @@ title:      How to use kpper_simple Theme
 subtitle:   (转)关于这个简洁明快的博客主题
 date:       2019-04-23
 author:     kpper
-categories: Blog.Note
+categories: Note.Blog
 mathjax: true
 tags:
-    -blog
-    -note
+    - blog
 #header-img: img/tiiltle.png
 #catalog: true
 description: 这个主题比较轻巧，没有使用bootstrap，加载速度比较快,适合做技术博客

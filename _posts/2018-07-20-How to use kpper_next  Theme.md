@@ -4,11 +4,10 @@ title:      How to use kpper_next  Theme
 subtitle:   Next Theme
 date:       2019-05-05
 author:     kpper
-categories: Blog.Note
+categories: Note.Blog
 mathjax: true
 tags:
-    -blog
-    -note
+    - blog
 #header-img: img/tiiltle.png
 #catalog: true
 #description:

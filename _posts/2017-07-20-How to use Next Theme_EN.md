@@ -4,11 +4,10 @@ title:      How to use Next Theme_EN
 subtitle:   写在前面
 date:       2019-05-05
 author:     kpper
-categories: Blog.Note
+categories: Note.Blog
 mathjax: true
 tags:
-    -blog
-    -note
+    - blog
 #header-img: img/tiiltle.png
 #catalog: true
 #description:
