@@ -89,9 +89,12 @@ keywords: "Jekyll, NexT,kpper"
 rss: 
 
 # Specify the date when the site was setup
-since: 2015
+since: 2019
+# Change the website creation time according to the format
+Building_time: 2019/05/05 10:00:00
 
-# icon between year and author @Footer
+# Icon between year and copyright info.
+#icon: user
 authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
