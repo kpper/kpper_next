@@ -16,7 +16,7 @@ date_format: '%Y-%m-%d'
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'https://kpper.gitee.io/notes
 url:
-baseurl:
+baseurl: /notes
 #baseurl: "/notes"
 permalink: /:year/:month/:day/:title/
 
@@ -86,10 +86,10 @@ keywords: "Jekyll, NexT,kpper"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss: false
+rss: 
 
 # Specify the date when the site was setup
-since: 2018
+since: 2019
 
 # icon between year and author @Footer
 authoricon: heart
@@ -293,7 +293,7 @@ links_layout: block
 #links_layout: inline
 links:
   Baidu： http://baidu.com/
-  #Title: http://example.com/
+  Title: http://example.com/
   
 
 
@@ -326,7 +326,7 @@ post_meta:
 # Post wordcount display settings
 post_wordcount:
   item_text: true
-  wordcount: false
+  wordcount: true
   min2read: false
   separated_meta: true
 
@@ -376,7 +376,7 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: false
+  enable: true
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
@@ -750,4 +750,4 @@ images: assets/images
 
 # Theme version
 version: 5.1.1
-theme: kpper_simple
+#theme: kpper_simple
