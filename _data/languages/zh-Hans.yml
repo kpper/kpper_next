@@ -52,7 +52,13 @@ page:
 footer:
   powered: "由 %s 强力驱动"
   theme: 主题
-
+building_time: 
+  building_time: 建站时间
+  day: 天
+  hour: 时
+  Minute: 分
+  Second: 秒
+  
 counter:
   tag_cloud:
     zero: 暂无标签
@@ -101,9 +107,3 @@ reward:
 
 gitmentbutton: 显示 Gitment 评论
 
-building_time: 
-  building_time: 建站时间
-  day: 天
-  hour: 时
-  Minute: 分
-  Second: 秒

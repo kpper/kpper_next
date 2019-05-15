@@ -1,5 +1,4 @@
 <section>                        
-    building_time
     {{ __.building_time.building_time }} : 
     <span id="t_d">00</span>
     {{ __.building_time.day }}
@@ -11,7 +10,7 @@
         {{ __.building_time.Second }}
         <script type="text/javascript">
             function getRTime() {
-                var EndTime= new Date('{{ theme.footer.Building_time }}'); 
+                var EndTime= new Date('{{ site.Building_time }}');
                 var NowTime = new Date();
                 var t = NowTime.getTime() - EndTime.getTime();
                 var d=Math.floor(t/1000/60/60/24);
