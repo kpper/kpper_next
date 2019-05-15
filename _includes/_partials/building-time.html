@@ -1,24 +1,14 @@
 <section>                        
-    {% if config.language == "zh-Hans" %}  {{ "建站时间 : " }} 
-    {% else %} {{ "Building Time : " }} 
-    {% endif %}
-        <span id="t_d">00</span>
-        {% if config.language == "zh-Hans" %}  {{ " 天 " }} 
-      {% else %} {{ " d " }} 
-      {% endif %}
-        <span id="t_h">00</span>
-        {% if config.language == "zh-Hans" %}  {{ " 时 " }} 
-      {% else %} {{ " h " }} 
-      {% endif %}
+    building_time
+    {{ __.building_time.building_time }} : 
+    <span id="t_d">00</span>
+    {{ __.building_time.day }}
+    <span id="t_h">00</span>
+    {{ __.building_time.hour }}
         <span id="t_m">00</span>
-        {% if config.language == "zh-Hans" %}  {{ " 分 " }} 
-      {% else %} {{ " m " }} 
-      {% endif %}
+        {{ __.building_time.Minute }}
         <span id="t_s">00</span>
-        {% if config.language == "zh-Hans" %}  {{ " 秒 " }} 
-      {% else %} {{ " s " }} 
-      {% endif %}
-    
+        {{ __.building_time.Second }}
         <script type="text/javascript">
             function getRTime() {
                 var EndTime= new Date('{{ theme.footer.Building_time }}'); 
