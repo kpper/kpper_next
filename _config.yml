@@ -21,7 +21,7 @@ baseurl: /notes
 permalink: /:year/:month/:day/:title/
 
 # Pagination
-paginate: 10
+paginate: 5
 #paginate_path: "/page:num/"
 #archive:
   #paginate: 10
@@ -559,7 +559,7 @@ busuanzi_count:
   site_pv_footer:
   # custom pv span for one page only
   page_pv: true
-  page_pv_header: <i class="fa fa-file-o"></i>
+  page_pv_header: <i class="fa fa-eye"></i>
   page_pv_footer:
 
 
