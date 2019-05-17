@@ -292,11 +292,13 @@ sidebar:
 
 # Blog rolls
 links_title: Links
-links_layout: block
-#links_layout: inline
+#links_layout: block
+links_layout: inline
 links:
-  Baidu： http://baidu.com/
   #Title:  http://example.com/
+  Baidu：http://baidu.com/
+ jekyll: http://jekyllcn.com/
+  
   
 
 
@@ -331,7 +333,7 @@ post_wordcount:
   item_text: true
   wordcount: true
   min2read: true
-  separated_meta: false
+  separated_meta: false #为true 去掉|
 
 # Wechat Subscriber
 wechat_subscriber:
