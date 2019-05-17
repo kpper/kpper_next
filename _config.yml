@@ -290,16 +290,13 @@ sidebar:
   scrollpercent: true
 
 
-# Blog rolls
+# Blog rolls   #Title:  http://example.com/
 links_title: Links
 #links_layout: block
 links_layout: inline
 links:
-  #Title:  http://example.com/
-  Baidu：http://baidu.com/
- jekyll: http://jekyllcn.com/
-  
-  
+  jekyll: http://jekyllcn.com/
+  Baidu: http://baidu.com/
 
 
 # ---------------------------------------------------------------
@@ -440,7 +437,7 @@ wildfire:
 
 # changyan
 changyan:
-  enable: true
+  enable: false
   appid:
   appkey:
 
@@ -454,7 +451,7 @@ changyan:
 
 # Support for gitalk comments system.
 gitalk:
-  enable: false
+  enable: true
   clientID: # 54730ddf7b9420460c03
   clientSecret: # c05684701b25ff1c19ea0c01ce4d80c125e0707d
   repo: # colingpt.github.io
