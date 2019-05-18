@@ -104,11 +104,9 @@
                     <!---i class="fa fa-fw fa-{{ site.social_icons[name] | default: 'globe' | downcase }}"></i-->
                     <i class="fa fa-fw fa-{{ link.split('||')[1] | trim | default('globe') }}"></i>
                   {% endif %}
-                  {% if not site.social_icons.icons_only %}{
+                  {% if not site.social_icons.icons_only %}
                     {{ name }}
-                  }
-                  {% endif %}
-                  
+                  {% endif %}  
                 </a>
               </span>
             {% endfor %}
