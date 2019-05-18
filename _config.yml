@@ -213,31 +213,29 @@ font:
 # ---------------------------------------------------------------
 # Sidebar Settings
 # ---------------------------------------------------------------
-# Social Links
+# Social Links.
+# Usage: `Key: permalink || icon`
 # Key is the link label showing to end users.
-# Value is the target link (E.g. GitHub: https://github.com/iissnan)
+# Value before `||` delimeter is the target permalink.
+# Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  #LinkLabel: Link
-  GitHub: https://github.com/kpper
-  #Twitter: https://twitter.com/your-user-name
-  #Weibo: http://weibo.com/your-user-name
-  #豆瓣: http://douban.com/people/your-user-name
-  #知乎: http://www.zhihu.com/people/your-user-name
+  #GitHub: https://github.com/yourname || github
+  #E-Mail: mailto:yourname@gmail.com || envelope
+  #Google: https://plus.google.com/yourname || google
+  #Twitter: https://twitter.com/yourname || twitter
+  #FB Page: https://www.facebook.com/yourname || facebook
+  #VK Group: https://vk.com/yourname || vk
+  #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
+  #YouTube: https://youtube.com/yourname || youtube
+  #Instagram: https://instagram.com/yourname || instagram
+  #Skype: skype:yourname?call|chat || skype
+  GitHub: https://github.com/kpper || github
+  E-Mail: kpper@qq.com || envelope || envelope
 
-
-# Social Links Icons
-# Icon Mapping:
-#   Map a menu item to a specific FontAwesome icon name.
-#   Key is the name of the item and value is the name of FontAwesome icon. Key is case-senstive.
-#   When an globe mask icon presenting up means that the item has no mapping icon.
 social_icons:
   enable: true
-  # Icon Mappings.
-  # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
-  Twitter: twitter
-  Weibo: weibo
-
+  icons_only: false
+  transition: false
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
@@ -252,7 +250,7 @@ toc:
   number: true
 
   # If true, all words will placed on next lines if header width longer then sidebar width.
-  wrap: false
+  wrap: true
 
 
 # Creative Commons 4.0 International License.
@@ -273,7 +271,7 @@ sidebar:
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
   #display: post
-  display: always
+  display: post
   #display: hide
   #display: remove
 
@@ -285,7 +283,7 @@ sidebar:
   b2t: false
 
   # Scroll percent label in b2t button
-  scrollpercent: false
+  scrollpercent: true
 
 
 # Blog rolls   #Title:  http://example.com/
