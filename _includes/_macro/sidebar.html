@@ -97,12 +97,14 @@
             {% for name_link in site.social %}
               {% assign name = name_link[0] %}
               {% assign link = name_link[1] %}
+              {% assign links_0 = link.split('||')[0] | trim %}
+              {% assign links_1 = link.split('||')[1] | trim %}
               <span class="links-of-author-item">
-                <!--a href="{{ link }}" target="_blank" title="{{ name }}"-->
-                <a href="{{ link.split('||')[0] | trim }}" target="_blank" title="{{ name }}">
+                <!--a href="{{ link }}" target="_blank" title="{{ name }}"{ link.split('||')[0] | trim }-->
+                <a href="{{ links_0}}" target="_blank" title="{{ link.split('||')[1] | trim | default: 'globe' | downcase }}">
                   {% if site.social_icons.enable %}
                     <!---i class="fa fa-fw fa-{{ site.social_icons[name] | default: 'globe' | downcase }}"></i-->
-                    <i class="fa fa-fw fa-{{ link.split('||')[1] | trim | default: 'globe' | downcase }}"></i>
+                    <i class="fa fa-fw fa-{{ links_1 }}"></i>
                   {% endif %}
                   {% if site.social_icons.icons_only != true %}
                     {{ name }}
