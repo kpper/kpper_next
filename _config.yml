@@ -18,7 +18,12 @@ date_format: '%Y-%m-%d'
 url:
 baseurl: /notes
 #baseurl: "/notes"
-permalink: /:year/:month/:day/:title/
+
+#PERMALINK STYLE	URL TEMPLATE
+##date	/:categories/:year/:month/:day/:title.html
+#pretty	/:categories/:year/:month/:day/:title/
+#none	/:categories/:title.html
+permalink: none
 
 # Pagination
 paginate: 5
@@ -229,8 +234,8 @@ social:
   #YouTube: https://youtube.com/yourname || youtube
   #Instagram: https://instagram.com/yourname || instagram
   #Skype: skype:yourname?call|chat || skype
-  GitHub: https://github.com/kpper || github
-  E-Mail: kpper@qq.com || envelope || envelope
+  GitHub1: https://github.com/kpper || github
+  E-Mail1: kpper@qq.com || envelope || envelope
 
 social_icons:
   enable: true

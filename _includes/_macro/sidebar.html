@@ -102,9 +102,9 @@
                 <a href="{{ link.split('||')[0] | trim }}" target="_blank" title="{{ name }}">
                   {% if site.social_icons.enable %}
                     <!---i class="fa fa-fw fa-{{ site.social_icons[name] | default: 'globe' | downcase }}"></i-->
-                    <i class="fa fa-fw fa-{{ link.split('||')[1] | trim | default('globe') }}"></i>
+                    <i class="fa fa-fw fa-{{ link.split('||')[1] | trim | default: 'globe' | downcase }}"></i>
                   {% endif %}
-                  {% if not site.social_icons.icons_only %}
+                  {% if site.social_icons.icons_only != true %}
                     {{ name }}
                   {% endif %}  
                 </a>
