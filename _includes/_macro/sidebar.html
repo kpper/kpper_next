@@ -96,14 +96,15 @@
           {% if site.social %}
             {% for name_link in site.social %}
               {% assign name = name_link[0] %}
-              {% assign link = name_link[1] %}
-              {% assign link_url = link.split("||")[0] | downcase %}
-              {% assign link_icon = link.split("||")[1] | remove: ' '| downcase %}
+              {% assign link = name_link[1] | split:"||" %}
+              {% assign link_url = link[0] | remove: ' ' | downcase %}
+              {% assign link_icon = link[1]  | remove: ' ' | downcase %}
               <span class="links-of-author-item">
-                <!--a href="{{ link }}////{{ link_url }}///{{ link_icon }}" target="_blank" title="{{ name }}"-->
+                <!--a href="{{ link }};{{ link_url }};{{ link_icon }}" target="_blank" title="{{ name }}"-->
                 <a href="{{ link_url }}" target="_blank" title="{{ name }}">
                   {% if site.social_icons.enable %}
-                    <!---i class="fa fa-fw fa-{{ site.social_icons[name] | default: 'globe' | downcase }}"></i-->
+                    <!---i class="fa fa-fw fa-{{ name_link[1] | downcase }}"></i-->
+                    <!---i class="fa fa-fw fa-{{ site.social[name] | default: 'globe' | downcase }}"></i-->
                     <i class="fa fa-fw fa-{{ link_icon }}"></i>
                   {% endif %}
                   {% if site.social_icons.icons_only != true %}
