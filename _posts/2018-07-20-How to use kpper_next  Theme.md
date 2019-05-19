@@ -4,7 +4,7 @@ title:      How to use kpper_next  Theme
 subtitle:   Next Theme
 date:       2019-05-05
 author:     kpper
-categories: Note.Blog
+categories: jekyll
 mathjax: true
 tags:
     - blog

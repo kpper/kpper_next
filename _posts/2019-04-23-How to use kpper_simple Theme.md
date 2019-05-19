@@ -4,7 +4,7 @@ title:      How to use kpper_simple Theme
 subtitle:   (转)关于这个简洁明快的博客主题
 date:       2019-04-23
 author:     kpper
-categories: Note.Blog
+categories: jekyll
 mathjax: true
 tags:
     - blog

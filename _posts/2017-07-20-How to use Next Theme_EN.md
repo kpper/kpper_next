@@ -4,7 +4,7 @@ title:      How to use Next Theme_EN
 subtitle:   写在前面
 date:       2019-05-05
 author:     kpper
-categories: Note.Blog
+categories: jekyll
 mathjax: true
 tags:
     - blog

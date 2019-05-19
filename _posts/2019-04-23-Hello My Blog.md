@@ -3,8 +3,9 @@ layout:     post
 title:      Hello My Blog
 subtitle:   写在前面
 date:       2019-05-05
+updated:    2019-05-19
 author:     kpper
-categories: Note.Blog
+categories: jekyll
 mathjax: true
 tags:
     - blog

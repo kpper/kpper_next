@@ -4,7 +4,7 @@ title:      How to use kpper_jacman Theme
 subtitle:   (如何使用 Jacman 主题
 date:       2019-05-05
 author:     kpper
-categories: Note.Blog
+categories: jekyll
 mathjax: true
 tags:
     - blog
