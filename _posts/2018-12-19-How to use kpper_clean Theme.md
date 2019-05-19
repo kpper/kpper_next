@@ -3,6 +3,7 @@ layout:     post
 title:      How to use kpper_clean Theme
 subtitle:   （转载fedemo）利用 GitHub Pages 快速搭建个人博客
 date:       2019-05-05
+updated:    2019-05-19
 author:     kpper
 categories: jekyll
 mathjax: true

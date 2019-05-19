@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Hello My Blog
-subtitle:   写在前面
+subtitle:   序
 date:       2019-05-05
 updated:    2019-05-19
 author:     kpper
@@ -40,11 +40,22 @@ tags:
 
 回顾博客的诞生，纯粹是出于个人兴趣。如果你恰好逛到了这里，希望你也能喜欢这个博客主题。
 
+
+
 ## 最后
 现在使用的`kpper_next`这款主题，最初是Hexo上的，为什么没有直接换Hexo，只能说缘分吧（其实是因为懒，捂脸~）。
 * 如果你喜欢我的这个博客模板，请在[`kpper_next
 `](https://kpper.github.io/kpper_next/)这个repository点个赞——右上角**star**一下。
 
+---
+>update 2019-05-19
+
+本来只是想有个在线记笔记的地方，方便查阅，做知识储备或者项目展示用，没想到花费了这么多时间在选主题上，倒有点本末倒置了。
+
+* `kpper_note`这个主题我将一直使用，Hexo平台式最新版本已经到7.x了，[Simpleyyt](https://github.com/Simpleyyt/jekyll-theme-next)也没有移植的打算，我目前加了一些，以后有时间在加吧，如果你也喜欢这个，欢迎加入一起维护，毕竟我只是现学现卖。
+* 其他的主题，暂时就这样了。
+* 如果你恰好逛到了这里，希望你也能喜欢我的博客主题。
+* 回顾这几个博客主题的诞生，纯粹是出于个人兴趣，如果你喜欢我的这个博客模板，请在Repository里点个赞—右上角**star**一下。
 ---
 
 ## 关于Jekyll主题
