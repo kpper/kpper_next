@@ -48,14 +48,14 @@ tags:
 `](https://kpper.github.io/kpper_next/)这个repository点个赞——右上角**star**一下。
 
 ---
->update 2019-05-19
+>Update 2019-05-19
 
 本来只是想有个在线记笔记的地方，方便查阅，做知识储备或者项目展示用，没想到花费了这么多时间在选主题上，倒有点本末倒置了。
 
-* `kpper_note`这个主题我将一直使用，Hexo平台式最新版本已经到7.x了，[Simpleyyt](https://github.com/Simpleyyt/jekyll-theme-next)也没有移植的打算，我目前加了一些，以后有时间在加吧，如果你也喜欢这个，欢迎加入一起维护，毕竟我只是现学现卖。
+* `kpper_note`这个主题我将一直使用，Hexo平台式最新版本已经到7.x了，[Simpleyyt](https://github.com/Simpleyyt/jekyll-theme-next)也没有移植的打算，我目前加了一些，以后有时间在加吧，如果你也喜欢这个，欢迎加入一起维护，毕竟我并非做前端的，也只是现学现卖。
 * 其他的主题，暂时就这样了。
 * 如果你恰好逛到了这里，希望你也能喜欢我的博客主题。
-* 回顾这几个博客主题的诞生，纯粹是出于个人兴趣，如果你喜欢我的这个博客模板，请在Repository里点个赞—右上角**star**一下。
+
 ---
 
 ## 关于Jekyll主题
@@ -64,11 +64,11 @@ tags:
 其优点非常明显：
 
 * **Markdown** 带来的优雅写作体验
-* 非常熟悉的 Git workflow ，**Git Commit 即 Blog Post**
+* 非常熟悉的 Git workflow ，不需要本地环境，**Git Commit 即 Blog Post**
 * 利用 GitHub Pages 的域名和免费无限空间，不用自己折腾主机
 * 如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了
-* Jekyll 的自定制非常容易，基本就是个模版引擎
-  
+* Jekyll 的自定制非常容易，基本就是个模版引擎 
+
 ---
 
 >在学习搭建静态博客过程中，接触了另一种免费搭建博客平台[Hexo](https://hexo.io/)，支持[GitHub Pages](https://pages.github.com/),Hexo有很多好看的主题，使用Node.js。

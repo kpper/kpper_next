@@ -96,7 +96,7 @@ rss:
 # Specify the date when the site was setup
 since: 2019
 # Change the website creation time according to the format
-Building_time: 2019/05/05 10:00:00
+Building_time: 2019/05/01 10:00:00
 
 # Icon between year and copyright info.
 #icon: user
@@ -296,7 +296,7 @@ links_icon: user
 links_layout: inline
 links:
   jekyll: https://jekyllrb.com/docs/   #http://jekyllcn.com/
-  Baidu: http://baidu.com/
+  Baidu: https://www.baidu.com/
   NexT:  https://theme-next.org/
 
 
@@ -330,7 +330,7 @@ post_meta:
 post_wordcount:
   item_text: true
   wordcount: true
-  min2read: true
+  min2read: false
   separated_meta: false #为true 去掉|
 
 # Wechat Subscriber
@@ -350,19 +350,16 @@ post_copyright:
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
-
-
 # ---------------------------------------------------------------
 # Misc Theme Settings
 # ---------------------------------------------------------------
-
 # Custom Logo.
 # !!Only available for Default Scheme currently.
 # Options:
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
 custom_logo:
-  enabled: true
+  enabled: false
   image:
 
 
