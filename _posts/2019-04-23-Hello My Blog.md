@@ -45,7 +45,7 @@ tags:
 ## 最后
 现在使用的`kpper_next`这款主题，最初是Hexo上的，为什么没有直接换Hexo，只能说缘分吧（其实是因为懒，捂脸~）。
 * 如果你喜欢我的这个博客模板，请在[`kpper_next
-`](https://kpper.github.io/kpper_next/)这个repository点个赞——右上角**star**一下。
+`](https://github.com/kpper/kpper_next)这个repository点个赞——右上角**star**一下。
 
 ---
 >Update 2019-05-19
