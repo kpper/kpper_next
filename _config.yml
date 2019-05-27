@@ -18,11 +18,11 @@ date_format: '%Y-%m-%d'
 #url:
 #baseurl: /notes
 #coding
-url: https://kpper.coding.me
-baseurl: "/notes"
-#gitee
-#url: https://kpper.gitee.io/notes
+#url: https://kpper.coding.me
 #baseurl: "/notes"
+#gitee
+url: https://kpper.gitee.io/notes
+baseurl: "/notes"
 
 #PERMALINK STYLE	URL TEMPLATE
 ##date	/:categories/:year/:month/:day/:title.html
