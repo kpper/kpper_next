@@ -14,10 +14,15 @@ language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'https://kpper.gitee.io/notes
-url:
-baseurl: /notes
+## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
+#url: https://kpper.github.io
+#baseurl: /notes
+#coding
+#url: https://kpper.coding.me
 #baseurl: "/notes"
+#gitee
+url: https://kpper.gitee.io/notes
+baseurl: "/notes"
 
 #PERMALINK STYLE	URL TEMPLATE
 ##date	/:categories/:year/:month/:day/:title.html
