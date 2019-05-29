@@ -132,11 +132,11 @@ index_with_subtitle: true
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  home: /
   archives: /archives/
   categories: /category/
   tags: /tag/
   about: /about/
+  home: /
   #schedule: /schedule/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
@@ -164,9 +164,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
