@@ -129,18 +129,17 @@ index_with_subtitle: true
 # ---------------------------------------------------------------
 # Menu Settings
 # ---------------------------------------------------------------
-
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
+  enable： true
   home: /
   archives: /archives/
   categories: /category/
   tags: /tag/
-  schedule: /schedule/
+  #schedule: /schedule/
   #about: /about/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
-
 
 # Enable/Disable menu icons.
 # Icon Mapping:
@@ -154,12 +153,10 @@ menu_icons:
   archives: archive
   categories: th
   tags: tags
-  schedule: calendar
-  #about: user
+  about: user
+  #schedule: calendar
   #sitemap: sitemap
   #commonweal: heartbeat
-
-
 
 
 # ---------------------------------------------------------------
