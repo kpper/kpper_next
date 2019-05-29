@@ -134,10 +134,10 @@ index_with_subtitle: true
 menu:
   home: /
   archives: /archives/
-  categories: /categories/
-  tags: /tags/
+  categories: /category/
+  tags: /tag/
   schedule: /schedule/
-  about: /about/
+  #about: /about/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -155,7 +155,7 @@ menu_icons:
   categories: th
   tags: tags
   schedule: calendar
-  about: user
+  #about: user
   #sitemap: sitemap
   #commonweal: heartbeat
 
