@@ -18,11 +18,11 @@ date_format: '%Y-%m-%d'
 #url:
 #baseurl: /notes
 #coding
-#url: https://kpper.coding.me
-#baseurl: "/notes"
-#gitee
-url: https://kpper.gitee.io/notes
+url: https://kpper.coding.me
 baseurl: "/notes"
+#gitee
+#url: https://kpper.gitee.io/notes
+#baseurl: "/notes"
 
 #PERMALINK STYLE	URL TEMPLATE
 ##date	/:categories/:year/:month/:day/:title.html
@@ -133,10 +133,11 @@ index_with_subtitle: true
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  categories: /categories/
-  about: /about/
   archives: /archives/
+  categories: /categories/
   tags: /tags/
+  schedule: /schedule/
+  about: /about/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -150,13 +151,13 @@ menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
-  about: user
-  categories: th
-  schedule: calendar
-  tags: tags
   archives: archive
-  sitemap: sitemap
-  commonweal: heartbeat
+  categories: th
+  tags: tags
+  schedule: calendar
+  about: user
+  #sitemap: sitemap
+  #commonweal: heartbeat
 
 
 
