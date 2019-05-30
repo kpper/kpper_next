@@ -47,7 +47,6 @@
           {% assign itemName = name | downcase %}
           {% if path_url == '/' %}
             <li class="menu-item menu-item-{{ itemName }}">
-                <!--a href="{{ path }};{{ path_url }};{{ path_icon }}" target="_blank" title="{{ name }}"-->
                 <a href="{{ path_url | relative_url }}" rel="section">
                   {% if site.menu_icons.enable %}
                     <i class="menu-item-icon fa fa-fw fa-{{ path_icon }}"></i> <br />
