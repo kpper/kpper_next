@@ -54,7 +54,7 @@ footer:
   theme: 主题
   busuanzi_value_site_uv: 第 %s 位访客
   busuanzi_value_site_pv: 总访问量 %s 次
-  busuanzi_value_page_pv: 总阅读
+  busuanzi_value_page_pv: 阅读
 
 building_time: 
   building_time: 建站时间

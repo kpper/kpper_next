@@ -1,5 +1,5 @@
 {% if site.copyright %}
-<div class="copyright" >
+<!--div class="copyright" >
   {% assign current = site.time | date: '%Y' %}
   {% assign since = site.since | downcase %}
   &copy; {% if site.since and since != current %} {{ since }} - {% endif %}
@@ -8,9 +8,17 @@
     <i class="fa fa-{{ site.authoricon }}"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">{{ site.author }}</span>
-</div>
+</div-->
 
 <div class="powered-by">
+  {% assign current = site.time | date: '%Y' %}
+  {% assign since = site.since | downcase %}
+  &copy; {% if site.since and since != current %} {{ since }} - {% endif %}
+  <span itemprop="copyrightYear">{{ current }}</span>
+  <span class="with-love">
+    <i class="fa fa-{{ site.authoricon }}"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">{{ site.author }}</span>
   {{ __.footer.powered | replace: '%s', '<a class="theme-link" href="https://jekyllrb.com">Jekyll</a>') }}
 </div>
 
