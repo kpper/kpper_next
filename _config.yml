@@ -101,7 +101,9 @@ rss:
 # Specify the date when the site was setup
 since: 2019
 # Change the website creation time according to the format
-Building_time: 2019/05/01 10:00:00
+Building_time： 
+  enable：true
+  time：2019/05/01 10:00:00
 
 # Icon between year and copyright info.
 #icon: user

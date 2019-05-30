@@ -1,3 +1,4 @@
+{% if site.copyright %}
 <div class="copyright" >
   {% assign current = site.time | date: '%Y' %}
   {% assign since = site.since | downcase %}
@@ -9,8 +10,6 @@
   <span class="author" itemprop="copyrightHolder">{{ site.author }}</span>
 </div>
 
-
-{% if site.copyright %}
 <div class="powered-by">
   {{ __.footer.powered | replace: '%s', '<a class="theme-link" href="https://jekyllrb.com">Jekyll</a>') }}
 </div>
@@ -23,4 +22,3 @@
 </div>
 {% endif %}
 {% include _third-party/analytics/busuanzi-counter.html %}
-{% include _partials/building-time.html %}
