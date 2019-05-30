@@ -45,28 +45,29 @@
           {% assign path_url = path[0] | remove: ' ' | downcase %}
           {% assign path_icon = path[1]  | remove: ' ' | default: 'question-circle' | downcase %}
           {% assign itemName = name | downcase %}
-          <li class="menu-item menu-item-{{ itemName }}">
-            <!--a href="{{ path }};{{ path_url }};{{ path_icon }}" target="_blank" title="{{ name }}"-->
-            <a href="{{ path_url | relative_url }}" rel="section">
-              {% if site.menu_icons.enable %}
-                <i class="menu-item-icon fa fa-fw fa-{{ path_icon }}"></i> <br />
-              {% endif %}
-              {{ __.menu[name] }}
-            </a>
-          </li>
-          {% endfor %}
-          <li class="menu-item menu-item-search">
-            <ul id="menu2" class="menu2">
-              <li class="menu-item menu-item-search}">
+          {% if path_url == '/' %}
+            <li class="menu-item menu-item-{{ itemName }}">
+                <!--a href="{{ path }};{{ path_url }};{{ path_icon }}" target="_blank" title="{{ name }}"-->
                 <a href="{{ path_url | relative_url }}" rel="section">
                   {% if site.menu_icons.enable %}
-                    <i class="menu-item-icon fa fa-fw fa-heart"></i> <br />
+                    <i class="menu-item-icon fa fa-fw fa-{{ path_icon }}"></i> <br />
                   {% endif %}
-                  {{ __.menu.search }}
+                  {{ __.menu[name] }}
                 </a>
-              </li>
-            </ul>
-          </li>
+            </li>
+          {% else %}
+            {% assign page_url = path_url | remove: '/pages' %}
+              <li class="menu-item menu-item-{{ itemName }}">
+                  <!--a href="{{ path }};{{ path_url }};{{ path_icon }}" target="_blank" title="{{ name }}"-->
+                  <a href="{{ path_url | relative_url }}" rel="section">
+                    {% if site.menu_icons.enable %}
+                      <i class="menu-item-icon fa fa-fw fa-{{ path_icon }}"></i> <br />
+                    {% endif %}
+                    {{ __.menu[name] }}
+                  </a>
+                </li> 
+          {% endif %}
+        {% endfor %}
 
       {% if hasSearch %}
         <li class="menu-item menu-item-search">

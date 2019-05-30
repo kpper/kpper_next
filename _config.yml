@@ -139,7 +139,7 @@ menu:
   archives: /pages/archives/ || archive
   categories: /pages//categories/ || th
   about: /pages/about/ || user
-  tags: /pages//tags/ || tags
+  tags: /pages/tags/ || tags
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
