@@ -137,7 +137,7 @@ index_with_subtitle: true
 menu:
   home: / || home
   archives: /pages/archives/ || archive
-  categories: /pages//categories/ || th
+  categories: /pages/categories/ || th
   about: /pages/about/ || user
   tags: /pages/tags/ || tags
   #schedule: /schedule/ || calendar
