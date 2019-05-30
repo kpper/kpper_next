@@ -46,6 +46,7 @@
           {% assign path_icon = path[1]  | remove: ' ' | default: 'question-circle' | downcase %}
           {% assign itemName = name | downcase %}
           <li class="menu-item menu-item-{{ itemName }}">
+            <!--a href="{{ path }};{{ path_url }};{{ path_icon }}" target="_blank" title="{{ name }}"-->
             <a href="{{ path_url | relative_url }}" rel="section">
               {% if site.menu_icons.enable %}
                 <i class="menu-item-icon fa fa-fw fa-{{ link_icon }}"></i> <br />
@@ -56,21 +57,14 @@
           {% endfor %}
           <li class="menu-item menu-item-more">
             <ul id="menu" class="menu">
-              {% for name_path in site.menu %}
-                {% assign name = name_path[0] %}
-                {% assign path = name_path[1] | split:"||" %}
-                {% assign path_url = path[0] | remove: ' ' | downcase %}
-                {% assign path_icon = path[1]  | remove: ' ' | default: 'question-circle' | downcase %}
-                {% assign itemName = name | downcase %}
-                <li class="menu-item menu-item-{{ itemName }}">
-                  <a href="{{ path_url | relative_url }}" rel="section">
-                    {% if site.menu_icons.enable %}
-                      <i class="menu-item-icon fa fa-fw fa-{{ link_icon }}"></i> <br />
-                    {% endif %}
-                    {{ __.menu[name] }}
-                  </a>
-                </li>
-                {% endfor %}
+              <li class="menu-item menu-item-search}">
+                <a href="{{ path_url | relative_url }}" rel="section">
+                  {% if site.menu_icons.enable %}
+                    <i class="menu-item-icon fa fa-fw fa-heart"></i> <br />
+                  {% endif %}
+                  {{ __.menu.search }}
+                </a>
+              </li>
             </ul>
           </li>
 
