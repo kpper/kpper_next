@@ -32,7 +32,7 @@ permalink: none
 
 # Pagination
 paginate: 5
-#paginate_path: "/page:num/"
+paginate_path: "/page:num/"
 #archive:
   #paginate: 10
   #paginate_path: "/page:num/"
@@ -136,18 +136,23 @@ index_with_subtitle: true
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
-  archives: /archives/ || archive
+  archives: /pages/archives/ || archive
+  categories: /pages//categories/ || th
+  about: /pages/about/ || user
+  tags: /pages//tags/ || tags
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
 
+  #schedule: /schedule/
 # Enable/Disable menu icons.
 menu_icons:
   enable: true
-
+  
+about: #这里是二级菜单
+    Introduction: /about/introduction/
+    Videos: /about/videos/
+    Culture: /about/culture/
 
 # ---------------------------------------------------------------
 # Scheme Settings
