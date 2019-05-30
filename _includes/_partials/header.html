@@ -38,20 +38,41 @@
   {% endif %}
 
   {% if site.menu %}
-    <ul id="menu" class="menu">
-      {% for name_path in site.menu %}
-        {% assign name = name_path[0] %}
-        {% assign path = name_path[1] %}
-        {% assign itemName = name | downcase %}
-        <li class="menu-item menu-item-{{ itemName }}">
-          <a href="{{ path | relative_url }}" rel="section">
-            {% if site.menu_icons.enable %}
-              <i class="menu-item-icon fa fa-fw fa-{{site.menu_icons[itemName] | default: 'question-circle' | downcase }}"></i> <br />
-            {% endif %}
-            {{ __.menu[name] }}
-          </a>
-        </li>
-      {% endfor %}
+      <ul id="menu" class="menu">
+        {% for name_path in site.menu %}
+          {% assign name = name_path[0] %}
+          {% assign path = name_path[1] | split:"||" %}
+          {% assign path_url = path[0] | remove: ' ' | downcase %}
+          {% assign path_icon = path[1]  | remove: ' ' | default: 'question-circle' | downcase %}
+          {% assign itemName = name | downcase %}
+          <li class="menu-item menu-item-{{ itemName }}">
+            <a href="{{ path_url | relative_url }}" rel="section">
+              {% if site.menu_icons.enable %}
+                <i class="menu-item-icon fa fa-fw fa-{{ link_icon }}"></i> <br />
+              {% endif %}
+              {{ __.menu[name] }}
+            </a>
+          </li>
+          {% endfor %}
+          <li class="menu-item menu-item-more">
+            <ul id="menu" class="menu">
+              {% for name_path in site.menu %}
+                {% assign name = name_path[0] %}
+                {% assign path = name_path[1] | split:"||" %}
+                {% assign path_url = path[0] | remove: ' ' | downcase %}
+                {% assign path_icon = path[1]  | remove: ' ' | default: 'question-circle' | downcase %}
+                {% assign itemName = name | downcase %}
+                <li class="menu-item menu-item-{{ itemName }}">
+                  <a href="{{ path_url | relative_url }}" rel="section">
+                    {% if site.menu_icons.enable %}
+                      <i class="menu-item-icon fa fa-fw fa-{{ link_icon }}"></i> <br />
+                    {% endif %}
+                    {{ __.menu[name] }}
+                  </a>
+                </li>
+                {% endfor %}
+            </ul>
+          </li>
 
       {% if hasSearch %}
         <li class="menu-item menu-item-search">
