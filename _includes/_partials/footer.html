@@ -1,24 +1,12 @@
 {% if site.copyright %}
-<!--div class="copyright" >
-  {% assign current = site.time | date: '%Y' %}
-  {% assign since = site.since | downcase %}
-  {% include _partials/building-time.html %}
-  &copy; {% if site.since and since != current %} {{ since }} - {% endif %}
-  <span itemprop="copyrightYear">{{ current }}</span>
-  <span class="with-love">
-    <i class="fa fa-{{ site.authoricon }}"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">{{ site.author }}</span>
-  {% include _third-party/analytics/busuanzi-counter.html %}
-</div-->
 <div class="copyright" >
     {% include _third-party/analytics/busuanzi-counter.html %}
     {% include _partials/building-time.html %}
 </div>
 
-<div class="powered-by">
+<!--div class="powered-by">
   
-</div>
+</div-->
 
 <div class="theme-info">
   {% assign current = site.time | date: '%Y' %}
