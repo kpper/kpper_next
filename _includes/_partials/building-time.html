@@ -1,5 +1,4 @@
-{% if site.building_time.enable %}
-<div class="copyright" >                       
+{% if site.building_time.enable %}                      
         {{ __.building_time.building_time }} : 
         <span id="t_d">00</span>
         {{ __.building_time.day }}
@@ -25,5 +24,4 @@
                 }
                 setInterval(getRTime,1000);
             </script>                    
-<div class="copyright" >
 {% endif %}
