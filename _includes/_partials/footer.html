@@ -1,33 +1,27 @@
 {% if site.copyright %}
-<!--div class="copyright" >
-  {% assign current = site.time | date: '%Y' %}
-  {% assign since = site.since | downcase %}
-  &copy; {% if site.since and since != current %} {{ since }} - {% endif %}
-  <span itemprop="copyrightYear">{{ current }}</span>
-  <span class="with-love">
-    <i class="fa fa-{{ site.authoricon }}"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">{{ site.author }}</span>
-</div-->
-
-<div class="powered-by">
-  {% assign current = site.time | date: '%Y' %}
-  {% assign since = site.since | downcase %}
-  &copy; {% if site.since and since != current %} {{ since }} - {% endif %}
-  <span itemprop="copyrightYear">{{ current }}</span>
-  <span class="with-love">
-    <i class="fa fa-{{ site.authoricon }}"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">{{ site.author }}</span>
-  {{ __.footer.powered | replace: '%s', '<a class="theme-link" href="https://jekyllrb.com">Jekyll</a>') }}
+<div class="copyright" >
+    {% include _partials/building-time.html %}
+    {% include _third-party/analytics/busuanzi-counter.html %}
 </div>
 
+<!--div class="powered-by">
+  
+</div-->
+
 <div class="theme-info">
+  {% assign current = site.time | date: '%Y' %}
+  {% assign since = site.since | downcase %}
+  &copy; {% if site.since and since != current %} {{ since }} - {% endif %}
+  <span itemprop="copyrightYear">{{ current }}</span>
+  <span class="with-love">
+    <i class="fa fa-{{ site.authoricon }}"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">{{ site.author }}</span>
+  {{ __.footer.powered | replace: '%s', '<a class="theme-link" href="https://jekyllrb.com">Jekyll</a>') }} | 
   {{ __.footer.theme }} -
   <a class="theme-link" href="https://github.com/kpper/kpper_next">
     NexT.{{ site.scheme }}
   </a>
-</div>
+</div> 
 {% endif %}
-{% include _third-party/analytics/busuanzi-counter.html %}
-{% include _partials/building-time.html %}
+

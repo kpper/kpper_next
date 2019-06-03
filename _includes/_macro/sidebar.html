@@ -44,7 +44,9 @@
 
           {% if site.archive_dir != '/' %}
             <div class="site-state-item site-state-posts">
-              <a href="{{ site.menu.archives | relative_url }}">
+              {% assign path = site.menu.archives | split:"||" %}
+              {% assign path_url = path[0] | remove: ' ' | downcase %}
+              <a href="{{ path_url | relative_url }}">
                 <span class="site-state-item-count">{{ site.posts.size }}</span>
                 <span class="site-state-item-name">{{ __.state.posts }}</span>
               </a>
